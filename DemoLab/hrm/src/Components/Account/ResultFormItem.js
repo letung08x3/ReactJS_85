@@ -21,7 +21,7 @@ function ResultFormItem({
   if (listUser !== "") {
     items = listUser.map((item) => {
       return (
-        <tr key={item.Id}>
+        <tr key={item.id}>
           <td>{item.id}</td>
           <td>{item.email}</td>
           <td>{item.username}</td>

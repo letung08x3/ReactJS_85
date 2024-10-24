@@ -43,7 +43,7 @@ function InputForm({ createNewAccount, listDepartment, listPosition }) {
       email: inputUser.Email,
       username: inputUser.Username,
       fullname: inputUser.Fullname,
-      departnameId: inputUser.Department,
+      departmentId: inputUser.Department,
       positionId: inputUser.Position,
     };
     createNewAccount(userNew);

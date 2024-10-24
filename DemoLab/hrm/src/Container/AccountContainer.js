@@ -85,7 +85,7 @@ function AccountContainer(props) {
     //   setShowForm(false);
     // }
 
-    console.log("userNew:", userNew);
+    console.log("userNew trước khi send:", userNew);
 
     // let userNew_API = {
     //   email: userNew.Email,
@@ -103,7 +103,7 @@ function AccountContainer(props) {
     // console.log("userNew.Position", userNew.Position);
 
     addAccountNewAPI(userNew).then((res) => {
-      fetchListUser();
+      fetchListUser(res);
     });
 
     setShowForm(false);
