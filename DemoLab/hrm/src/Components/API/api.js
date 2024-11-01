@@ -18,14 +18,3 @@ export const api = async (method, endpoint, payload) => {
     console.log(error);
   }
 };
-
-// export const api = (method, endpoint, payload) => {
-//   return axiosClient(endpoint, { method: method, data: payload })
-//     .then((response) => {
-//       //   console.log("api");
-//       return response.data;
-//     })
-//     .catch((error) => {
-//       console.log(error);
-//     });
-// };
